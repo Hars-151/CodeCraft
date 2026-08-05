@@ -97,6 +97,10 @@ hr {
     border: 2px solid #035074;
 }
 
+#p1 {
+    text-align: center;
+}
+
 body {
     background:
         radial-gradient(circle at center, #312E81 0%, transparent 45%),
