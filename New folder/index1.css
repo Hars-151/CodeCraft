@@ -1,0 +1,104 @@
+header {
+
+    border: 3px solid #38BDF8;
+    padding: 15px;
+    border-radius: 20px;
+    width: 97%;
+    height: 100px;
+    background-color: #172554;
+}
+
+header table {
+    width: 100%;
+    height: 100%;
+}
+
+header td {
+    vertical-align: middle;
+}
+
+nav {
+    text-align: left;
+}
+
+a {
+    color: #E0E7FF;
+    font-size: 100%;
+}
+
+nav span {
+    border: 2px solid #2563EB;
+    padding: 10px 15px;
+    margin-right: 5px;
+    background-color: #1E293B;
+    color: #E0E7FF;
+    border-radius: 10px;
+}
+
+nav span:hover {
+    background-color: #4F46E5;
+    border-color: #38BDF8;
+}
+
+section td:not(.card1) h1:not(#Pe) {
+    border: 2px solid #38BDF8;
+    width: 180px;
+    padding: 8px;
+    background-color: #312E81;
+    color: white;
+    border-radius: 10px;
+}
+
+#h1 {
+    font-size: 180%;
+    border: 2px solid #38BDF8;
+    width: 180px;
+    padding: 10px;
+    background-color: #312E81;
+    color: white;
+    border-radius: 10px;
+}
+
+#Pe {
+    border: 2px solid #7C3AED;
+    width: 180px;
+    padding: 8px;
+    background-color: #1E1B4B;
+    color: white;
+    border-radius: 10px;
+}
+
+.card1 {
+    border: 2px solid #38BDF8;
+    width: 22%;
+    padding: 10px;
+    background-color: #1E293B;
+    color: #E0E7FF;
+    border-radius: 15px;
+}
+
+.card1 + .card1 {
+    margin-left: 5px;
+}
+
+table {
+    border-spacing: 10px;
+}
+
+#hr {
+    border: none;
+    border: 2px solid #38BDF8;
+    width: 200px;
+}
+
+hr {
+    border: none;
+    width: 100%;
+    border: 2px solid #035074;
+}
+
+body {
+    background:
+        radial-gradient(circle at center, #312E81 0%, transparent 45%),
+        linear-gradient(to bottom, #050505, #0B0B14, #111827);
+}

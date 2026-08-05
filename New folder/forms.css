@@ -1,0 +1,100 @@
+table.f2 {
+
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #111827;
+    color: #E0E7FF;
+}
+
+td {
+    padding: 10px;
+    color: #E0E7FF;
+}
+
+label {
+    text-align: center;
+    color: #E0E7FF;
+    font-weight: bold;
+}
+
+input {
+
+    border: 2px solid #2563EB;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    vertical-align: -2px;
+    border: #2563EB;
+}
+
+select {
+
+    border: 2px solid #2563EB;
+    padding: 7px;
+    border-radius: 10px;
+    width: 220px;
+    outline: none;
+}
+
+textarea {
+
+    border: 2px solid #2563EB;
+    padding: 8px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+button {
+
+    border: 2px solid #7C3AED;
+    background-color: #312E81;
+    color: white;
+    padding: 8px;
+    width: 400px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #4F46E5;
+    color: white;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #38BDF8;
+}
+
+Img {
+    border-radius: 50px;
+}
+
+span {
+
+    border: 3px solid #7C3AED;
+    background-color: #1E1B4B;
+    color: #E0E7FF;
+    border-radius: 15px;
+    padding: 6px 12px;
+}
+
+h1 {
+    color: #F1F5F9;
+}
+
+strong {
+    color: #E0E7FF;
+}
+
+body {
+
+    height: 150vh;
+
+    background:
+        radial-gradient(circle at center, #312E81 0%, transparent 45%),
+        linear-gradient(to bottom, #050505, #0B0B14, #111827);
+}
