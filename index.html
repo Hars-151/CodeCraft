@@ -1,136 +1,103 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>My CV</title>
-    <link href="index.css" rel="stylesheet">
-    <meta http-equiv="refresh" content="0; url=forms.html">
-    
+    <link rel="stylesheet" href="forms.css">
+    <meta charset="UTF-8">z
+    <title>Forms</title>
 </head>
 
-<body bgcolor="#D9EAF7">
+<body bgcolor="#315A63">
+<section id="form">
 
-    <header>
-        <table >
-            <tr>
-             <td >
-                    <h1 id="h1">CodeCraft</h1>
+<br><br><br><br>
+
+    <form action="forms.html">
+
+        <table align="center" bgcolor="#EAF4FB" cellpadding="15" class="f2" >
+
+
+            <tr class="F1"  >
+                <td colspan="2" align="center">
+                    <img src="Gerges.png" alt="my img" width="120" >
                 </td>
-                <td>  
-                    <nav>
-                        <span><a href="#home">Home</a> </span> 
-                        <span><a href="forms.html">Forms</a> </span> 
 
-                 </nav>
+            </tr>
+
+            <tr class="F1">
+                <td colspan="2" align="center">
+                        <h1>My Skills</h1>
+                            <hr width="30%">
+                            <br>
+        
+                         <span>HTML</span>
+                         <span>CSS</span>
+                         <span>JavaScript</span>
+                         <span>C#</span>
+                         <span>C++</span>
+                </td>
+            </tr>
+           <tr>
+                <td colspan="2">
+                     <hr width="100%">
+                </td>
+            </tr>
+            <tr class="F1" >
+                <td>
+                    <label for="Name">Name</label><br>
+                    <input type="text" id="Name" placeholder="Enter your Name" required>
+                </td>
+
+                <td>
+                    <label for="Email">Email</label><br>
+                    <input type="email" id="Email" placeholder="Enter your Email" required>
                 </td>
             </tr>
             
+            <tr>
+                <td>
+                    <label for="Css"> Select the project</label><br>
+                    <select id="Css" required>
+                        <option value="Front-end" selected>Front-end</option>
+                        <option value="Less">back-end</option>
+                        <option value="Stylus">C#</option>
+                    </select>
+                </td>
 
+                <td>
+                    <label for="YE"> Have you done business with us? </label><br>
+                     <input type="radio" name="test"value="Yes" required> Yes
+                     <input type="radio" name="test" value="No" required> No
+                  
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <label for="Message">Message:</label><br>
+                    <textarea id="Message" cols="50" rows="8" required placeholder="Leave the project details..."></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                 <td colspan="2">
+
+                  <font size="2">
+                     <input type="checkbox" id="newsletter" > <strong>We will send you the details as they become available.</strong>
+                 </font>
+
+                 </td>
+            </tr>
+            <tr class="send">
+                <td colspan="2" align="center">
+                    <button type="submit">Send</button>
+                </td>
+
+        </tr>
         </table>
 
-   
-    </header><hr width="100%" color="black">
-<section id="home">
-    <main>
-
-    <table align="center" width="100%">
-
-     <tr  align="center" >
-        <td colspan="4">
-            <h1 id="Pe">Personal details</h1>
-            <hr id="hr">
-        </td>
-     </tr>
-    <tr>
-        <td class="card1" align="center">
-            <h1><strong>Name:</strong>  </h1>
-            <h2><strong>Gerges Saber Nabih</strong></h2>
-        </td>
-
-
+</section>
     
-        <td class="card1" align="center">
-            <h1><strong>Address:</strong> </h1>
-            <h2> <strong>Assiut</strong> </h2>
-        </td>
-    
-
-    
-        <td class="card1" align="center">
-            <h1> Number:</h1>
-           <h2> 01553702620 </h2> 
-          
-        </td>
-    
-
-    
-        <td class="card1" align="center">
-            <h1><strong> Email address:</strong></h1>
-           <a href="fsdesadh40@gmail.com">hanewnash40@gmail.com </a></h2>
-           
-        </td>
-    </tr>
-    
-    <tr>
-        <td class="card1" align="center" colspan="4">
-            <h1><strong> Facebook:</strong></h1>
-           <h2><a href="https://www.facebook.com/username">Facebook</a></h2>
-           <hr>
-        </td>
-    </tr>
-
-    <tr align="center">
-    <td colspan="4">
-        <h1 id="Pe">Skills</h1>
-        <hr id="hr">
-    </td>
-</tr>
-
-<tr>
-    <td class="card1" align="center">
-        <h1><strong>Mobile Development</strong></h1>
-        <p>
-            <strong>
-                Developing cross-platform mobile applications
-                <br>
-                Developing native mobile applications
-            </strong>
-        </p>
-    </td>
-
-    <td class="card1" colspan="2">
-        <h1><strong>Web Design & Development</strong></h1>
-        <p>
-            <strong>
-                Developing Responsive Websites
-            </strong>
-        </p>
-    </td>
-
-    <td class="card1" align="center">
-        <h1><strong>Project Direction</strong></h1>
-        <p>
-            <strong>
-                Proven ability to lead and manage a wide variety of
-                <br>
-                development projects in team and independent situations
-            </strong>
-        </p>
-    </td>
-</tr>
-
-<tr>
-    <td colspan="4">
-        <hr>
-    </td>
-</tr>
-
-</table>
-
-   </section>     
-        
-
-</main>
+    </form>
 
 </body>
 </html>
